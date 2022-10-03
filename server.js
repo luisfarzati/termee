@@ -3,7 +3,7 @@ const Koa = require("koa");
 const app = new Koa();
 
 app.use((ctx) => {
-  const result = eval(ctx.query.code);
+  const result = ctx.query.code?.toString();
   ctx.body = result;
 });
 
