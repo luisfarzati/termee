@@ -19,7 +19,7 @@
   "homepage": "https://github.com/luisfarzati/termee#readme",
   "dependencies": {
     "adm-zip": "^0.4.13",
-    "koa": "^2.5.3",
+    "koa": "^2.13.4",
     "react-native-reanimated": "^2.10.0"
   }
 }
